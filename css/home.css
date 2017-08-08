@@ -1,7 +1,20 @@
+@font-face {
+    font-family: Asap-Bold;
+    src: url(./asap/Asap-Bold.otf);
+}
+@font-face {
+    font-family: Asap-Regular;
+    src: url(./asap/Asap-Regular.otf);
+}
 body {
     display: block;
     margin: 0px;
 }
+.page{
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     display: flex;
     flex-direction: row;
@@ -9,23 +22,244 @@ body {
     justify-content: space-around;
     align-items:center; 
 }
-
-#home {
+.links a{
+    text-decoration: none;
+}
+.home {
 	color: #333333;
-	font-family: Asap Bold;
-	font-size: 18 pt;
+	font-family: Asap-Bold;
+	font-size: 18pt;
 }
-#about {
+.about {
 	color: #999999;
-	font-family: Asap Bold;
-	font-size: 18 pt;
+	font-family: Asap-Bold;
+	font-size: 18pt;
+    padding-left: .5cm;
 }
-#upcomer-logo {
+.upcomer-logo {
 
 }
-#fb-icon{
+.fb-icon{
 
 }
-#tweet-icon{
+.tweet-icon{
 
 }
+
+
+.sec1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: "200" ;
+    background: url(../images/bg1_repeat.png);
+}
+.sec1_text1 {
+    font-family: Asap-Bold;
+    font-size: 52pt;
+    color: #ffffff; 
+}    
+.sec1_text2 {
+    font-family: Asap-Regular;
+    font-size: 24pt;
+    color: #ffffff;
+
+}
+.sec1_email {
+   
+    color: #ffffff;
+}
+.email {
+    opacity: .3;
+    width:  269px;
+    height: 60px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;  
+    font-family: Asap-Regular;
+    font-size: 20.3pt;
+    font-color: #ffffff;
+    border:0px;
+    outline: none;
+    padding-left: 2cm;
+}
+.ok {
+    width:  81px;
+    height: 60px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;  
+    background-color: #2ecc71;
+    font-family: Asap-Regular;
+    font-size: 20.3pt;
+    color: #ffffff;
+    text-align: center;
+    border:0px;
+    outline: none;
+    margin-left: -.08cm;
+}
+.sec1_text3 {
+    font-family: Asap-Regular;
+    font-size: 16pt;
+    color: #ffffff;
+}
+
+.sec2 {
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    padding-top: 2cm;
+}
+.sec2_text1 {
+    font-family: Asap-Bold;
+    font-size: 36pt;
+    color: #333333;
+}
+.sec2_text2 {
+    font-family: Asap-Regular;
+    font-size: 20pt;
+    color: #999999;
+    text-align: center;
+}
+.sec2_pic1 {
+
+}
+
+.sec3 {
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction:column;
+    padding-top: 3cm;
+    
+    
+}
+.sec3_part1 {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+   
+    padding-bottom: 3cm;
+}
+.sec3_part1_pic1 {
+    padding-left: 2cm;
+
+}
+.sec3_part1_right1 {
+    font-family: Asap-Bold;
+    font-size: 36pt;
+    color: #666666;
+    text-align: left;
+    padding-left: 1cm;
+
+    
+}
+.sec3_part1_right2 {
+     font-family: Asap-Regular;
+    font-size: 20pt;
+    color: #999999;
+    text-align: left;
+    padding-left: 1cm;
+    
+}
+
+
+
+
+.sec3_part2 {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding-bottom: 3cm;
+}
+.sec3_part2_left1 {
+     font-family: Asap-Bold;
+    font-size: 36pt;
+    color: #666666;
+    text-align: right;
+    padding-right: 3cm;
+    
+}
+.sec3_part2_left2 {
+     font-family: Asap-Regular;
+    font-size: 20pt;
+    color: #999999;
+    text-align: right;
+    padding-right: 3cm;
+    
+}
+.sec3_part2_pic1 {
+    padding-right: 3cm
+
+}
+
+.sec4 {
+    display: flex;
+    background: url(../images/bg2.png); 
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 1cm;
+    padding-bottom: 2cm;
+}
+.sec4_text1 {
+    font-family: Asap-Bold;
+    font-size: 36pt;
+    color: #ffffff;
+
+}
+.sec4_text2 {
+    font-family: Asap-Regular;
+    font-size: 24pt;
+    color: #ffffff;
+}
+.sec4_pics {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1cm;
+
+}
+.sec4_pics1 {
+    padding-right: 2cm;
+}
+.sec4_pics2 {
+    
+}
+.sec4_pics3{
+    padding-left: 2cm;
+    
+}
+
+.sec5 {
+    display: flex;
+    background-color:#333333;
+    flex-direction:row;
+    padding-top: 2cm;
+    align-items:center;
+
+}
+.sec5_pic1 {
+    padding-left: 8cm
+
+}
+.sec5_text1 {
+    font-family: Asap-Bold;
+    font-size: 48pt;
+    color: #ffffff;
+    text-align: center;
+    margin-left: -2.5cm;
+    padding-bottom: .8cm;
+}
+
+.footer {
+    display:flex;
+    background-color: #f5f5f5;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    justify-content: center;
+}
+.fb {
+    padding-right:.5cm;
+}
+
+
+
