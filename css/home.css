@@ -10,40 +10,50 @@ body {
     display: block;
     margin: 0px;
 }
+
+
 .page{
     display: flex;
     flex-direction: column;
 }
+
 
 .header {
     display: flex;
     flex-direction: row;
     background-color: #f5f5f5;
     justify-content: space-around;
-    align-items:center; 
+    align-items: center; 
+    position: relative;
 }
 .links a{
     text-decoration: none;
+
 }
 .home {
 	color: #333333;
 	font-family: Asap-Bold;
 	font-size: 18pt;
+    position: absolute;
+    left: 3%;
+    top: 20%;
 }
 .about {
 	color: #999999;
 	font-family: Asap-Bold;
 	font-size: 18pt;
-    padding-left: .5cm;
+    position: absolute;
+    left: 10%;
+    top: 20%;
 }
 .upcomer-logo {
 
 }
 .fb-icon{
-
+    margin-top:5px; 
 }
 .tweet-icon{
-
+    margin-top:5px;    
 }
 
 
@@ -59,16 +69,18 @@ body {
     font-family: Asap-Bold;
     font-size: 52pt;
     color: #ffffff; 
+    width: 70%;
 }    
 .sec1_text2 {
     font-family: Asap-Regular;
     font-size: 24pt;
     color: #ffffff;
-
+    width: 61%;
 }
 .sec1_email {
    
     color: #ffffff;
+    position: relative;
 }
 .email {
     opacity: .3;
@@ -82,10 +94,11 @@ body {
     border:0px;
     outline: none;
     padding-left: 2cm;
+    
 }
 .ok {
     width:  81px;
-    height: 60px;
+    height: 62px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;  
     background-color: #2ecc71;
@@ -95,13 +108,17 @@ body {
     text-align: center;
     border:0px;
     outline: none;
-    margin-left: -.08cm;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    padding: 0;
 }
 .sec1_text3 {
     font-family: Asap-Regular;
     font-size: 16pt;
     color: #ffffff;
 }
+
 
 .sec2 {
     display: flex;
@@ -119,77 +136,70 @@ body {
     font-size: 20pt;
     color: #999999;
     text-align: center;
+    width: 670px
 }
 .sec2_pic1 {
 
 }
+
 
 .sec3 {
     background-color: #f5f5f5;
     display: flex;
     flex-direction:column;
     padding-top: 3cm;
-    
-    
 }
 .sec3_part1 {
     display: flex;
     flex-direction:row;
     justify-content: space-around;
-   
     padding-bottom: 3cm;
 }
 .sec3_part1_pic1 {
     padding-left: 2cm;
 
 }
+.sec3_part1_right {
+    text-align: left;
+    margin-left: 1cm;
+}
 .sec3_part1_right1 {
     font-family: Asap-Bold;
     font-size: 36pt;
     color: #666666;
-    text-align: left;
-    padding-left: 1cm;
-
-    
 }
 .sec3_part1_right2 {
      font-family: Asap-Regular;
     font-size: 20pt;
     color: #999999;
-    text-align: left;
-    padding-left: 1cm;
+    width: 598px
     
 }
-
-
-
-
 .sec3_part2 {
     display: flex;
     flex-direction:row;
     justify-content: space-around;
     padding-bottom: 3cm;
 }
+.sec3_part2_left {
+    text-align: right;
+    margin-right: 3cm;
+}
 .sec3_part2_left1 {
      font-family: Asap-Bold;
     font-size: 36pt;
     color: #666666;
-    text-align: right;
-    padding-right: 3cm;
-    
 }
 .sec3_part2_left2 {
      font-family: Asap-Regular;
     font-size: 20pt;
     color: #999999;
-    text-align: right;
-    padding-right: 3cm;
-    
+    width: 457px;
 }
 .sec3_part2_pic1 {
     padding-right: 3cm
-
 }
+
 
 .sec4 {
     display: flex;
@@ -205,29 +215,28 @@ body {
     font-family: Asap-Bold;
     font-size: 36pt;
     color: #ffffff;
-
 }
 .sec4_text2 {
     font-family: Asap-Regular;
     font-size: 24pt;
     color: #ffffff;
+    width: 780px;
 }
 .sec4_pics {
     display: flex;
     flex-direction: row;
-    padding-top: 1cm;
-
+    margin-top: 1cm;
 }
 .sec4_pics1 {
-    padding-right: 2cm;
+    margin-right: 2cm;
 }
 .sec4_pics2 {
     
 }
 .sec4_pics3{
-    padding-left: 2cm;
-    
+    margin-left: 2cm;
 }
+
 
 .sec5 {
     display: flex;
@@ -237,8 +246,13 @@ body {
     align-items:center;
 
 }
+.sec5_inner {
+    position: relative;
+    width: 800px;
+    margin-left: 25%;
+    display: flex;
+}
 .sec5_pic1 {
-    padding-left: 8cm
 
 }
 .sec5_text1 {
@@ -246,19 +260,22 @@ body {
     font-size: 48pt;
     color: #ffffff;
     text-align: center;
-    margin-left: -2.5cm;
-    padding-bottom: .8cm;
+    margin: 0;
+    position: absolute;
+    top: 80px;
+    left: 162px;
 }
+
 
 .footer {
     display:flex;
     background-color: #f5f5f5;
-    padding-top: 1cm;
-    padding-bottom: 1cm;
+    height: 60px;
     justify-content: center;
+    align-items:center;
 }
 .fb {
-    padding-right:.5cm;
+    margin-right:.5cm;
 }
 
 
