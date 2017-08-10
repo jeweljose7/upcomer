@@ -1,0 +1,291 @@
+@font-face {
+    font-family: Asap-Bold;
+    src: url(./asap/Asap-Bold.otf);
+}
+@font-face {
+    font-family: Asap-Regular;
+    src: url(./asap/Asap-Regular.otf);
+}
+body {
+    display: block;
+    margin: 0px;
+}
+
+
+.page{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+    margin: auto;
+    height: 80px;
+    min-width: 1024px;
+    max-width: 1024px;
+}
+.links a{
+    text-decoration: none;
+
+}
+.home {
+	color: #333333;
+	font-family: Asap-Bold;
+	font-size: 18pt;
+    margin-right: 10px; 
+}
+.about {
+	color: #999999;
+	font-family: Asap-Bold;
+	font-size: 18pt;
+}
+.upcomer-logo {
+
+}
+.fb-icon {
+    margin-right: 10px;
+    cursor: pointer;
+}
+.tweet-icon{
+     cursor: pointer;
+}
+
+
+.sec1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: "200" ;
+    background: url(../images/bg1_repeat.png);
+}
+.sec1_text1 {
+    font-family: Asap-Bold;
+    font-size: 52pt;
+    color: #ffffff; 
+    width: 70%;
+}    
+.sec1_text2 {
+    font-family: Asap-Regular;
+    font-size: 24pt;
+    color: #ffffff;
+    width: 61%;
+}
+.sec1_email {
+   
+    color: #ffffff;
+    position: relative;
+    margin-right: 85px;
+}
+.email {
+    opacity: .3;
+    width:  269px;
+    height: 60px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;  
+    font-family: Asap-Regular;
+    font-size: 20.3pt;
+    font-color: #ffffff;
+    border:0px;
+    outline: none;
+    padding-left: 55px;
+    
+}
+.ok {
+    width:  81px;
+    height: 62px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;  
+    background-color: #2ecc71;
+    font-family: Asap-Regular;
+    font-size: 20.3pt;
+    color: #ffffff;
+    text-align: center;
+    border:0px;
+    outline: none;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    padding: 0;
+    cursor: pointer;
+}
+.sec1_text3 {
+    font-family: Asap-Regular;
+    font-size: 16pt;
+    color: #ffffff;
+}
+.upcomer-logo {
+    cursor: pointer;
+}
+
+.sec2 {
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    padding-top: 50px;
+}
+.sec2_text1 {
+    font-family: Asap-Bold;
+    font-size: 36pt;
+    color: #333333;
+}
+.sec2_text2 {
+    font-family: Asap-Regular;
+    font-size: 20pt;
+    color: #999999;
+    text-align: center;
+    width: 670px
+}
+.sec2_pic1 {
+
+}
+
+
+.sec3 {
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction:column;
+    padding-top: 75px;
+}
+.sec3_part1 {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding-bottom: 75px;
+    margin: auto;
+    padding-left: 160px;
+}
+.sec3_part1_pic1 {
+        padding-right: 56px;
+}
+.sec3_part1_right {
+    text-align: left;
+    margin-left: 25px;
+}
+.sec3_part1_right1 {
+    font-family: Asap-Bold;
+    font-size: 36pt;
+    color: #666666;
+}
+.sec3_part1_right2 {
+     font-family: Asap-Regular;
+    font-size: 20pt;
+    color: #999999;
+    width: 598px
+}
+.sec3_part2 {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding-bottom: 75px;
+    margin: auto;
+    padding-left: 40px;
+}
+.sec3_part2_left {
+    text-align: right;
+    margin-right: 75px;
+}
+.sec3_part2_left1 {
+     font-family: Asap-Bold;
+    font-size: 36pt;
+    color: #666666;
+}
+.sec3_part2_left2 {
+     font-family: Asap-Regular;
+    font-size: 20pt;
+    color: #999999;
+    width: 457px;
+}
+.sec3_part2_pic1 {
+    padding-right: 75px
+}
+
+
+.sec4 {
+    display: flex;
+    background: url(../images/bg2.png); 
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+.sec4_text1 {
+    font-family: Asap-Bold;
+    font-size: 36pt;
+    color: #ffffff;
+}
+.sec4_text2 {
+    font-family: Asap-Regular;
+    font-size: 24pt;
+    color: #ffffff;
+    width: 780px;
+}
+.sec4_pics {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+.sec4_pics1 {
+    margin-right: 50px;
+    cursor: pointer;
+}
+.sec4_pics2 {
+    cursor: pointer;
+}
+.sec4_pics3{
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+
+.sec5 {
+    display: flex;
+    background-color:#333333;
+    flex-direction:row;
+    padding-top: 50px;
+    align-items:center;
+
+}
+.sec5_inner {
+    position: relative;
+    width: 800px;
+    margin: auto;
+    display:flex;
+}
+.sec5_pic1 {
+
+}
+.sec5_text1 {
+    font-family: Asap-Bold;
+    font-size: 48pt;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 80px;
+    left: 162px;
+}
+
+
+.footer {
+    display:flex;
+   
+    height: 50px;
+    justify-content: center;
+    align-items:center;
+}
+.footer_inner {
+   margin-top: 5px;
+}
+.fb {
+    margin-right:13px;
+}
+
+
+
